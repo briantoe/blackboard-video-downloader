@@ -1,0 +1,15 @@
+{
+  "name": "Blackboard Collaborate Video Downloader",
+  "version": "0.0.1",
+  "description": "Downloads videos from Blackboard Collaborate, go to the video of choice and run the extension.",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "https://us.bbcollab.com/*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
